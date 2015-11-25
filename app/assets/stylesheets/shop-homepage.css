@@ -15,6 +15,7 @@
 .carousel-control,
 .item {
     border-radius: 4px;
+    background: white !important;
 }
 
 .caption {
@@ -48,3 +49,4 @@
 footer {
     margin: 50px 0;
 }
+
