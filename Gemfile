@@ -19,7 +19,7 @@ group :development do
 end
 gem 'bootstrap-sass'
 gem 'devise'
-gem 'high_voltage'
+gem 'high_voltage', '~> 3.0'
 gem 'pg'
 gem 'slim-rails'
 group :development do
@@ -36,7 +36,7 @@ group :production do
   gem 'rails_12factor'
 end
 group :test do
-  gem 'capybara'
+  gem 'capybara', '~> 2.7.1'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
