@@ -10,7 +10,7 @@ feature 'Sign out', :devise do
   end
 
   scenario 'user is signed in' do
-    expect(page).to have_content I18n.t 'devise.sessions.signed_in'
+    expect(page).to have_content "Signed in successfully."
   end
 
   # Scenario: User signs out successfully
@@ -21,6 +21,7 @@ feature 'Sign out', :devise do
     click_link 'Sign out'
     fail "replace with your test here"
     # Add your test for this
-    # HINT: identify the sign out message and test that
+    # HINT: identify the sign out message and test that.
+    # HINT: test this step on the browser so you know what message to test.
   end
 end
